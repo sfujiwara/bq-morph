@@ -1,0 +1,17 @@
+[
+  {
+    "name": "tokens",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {"name": "surface", "type": "STRING"},
+      {"name": "pos", "type": "STRING"},
+      {"name": "pos_detail1", "type": "STRING"},
+      {"name": "pos_detail2", "type": "STRING"},
+      {"name": "pos_detail3", "type": "STRING"},
+      {"name": "base_form", "type": "STRING"},
+      {"name": "reading", "type": "STRING"}
+    ]
+  },
+  {"name": "resource", "type": "STRING"}
+]
